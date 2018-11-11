@@ -9,7 +9,7 @@ class SourceTest(unittest.TestCase):
 
     def setUp(self):
         '''
-        Set up method thatt will run before every Test
+        Set up method that will run before every Test
         '''
         self.new_source = Source(
             'Test id', 'Test name', 'Test description', 'Test categoty', 'Test language')
