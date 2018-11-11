@@ -1,7 +1,7 @@
 import os
 
 
-class Config:
+class Confi:
     '''
     General configuration parent class
     '''
