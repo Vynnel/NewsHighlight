@@ -1,6 +1,6 @@
 from flask import render_template, request, redirect, url_for
 from . import main
-from ..request import get_sources, get_articles, search_artic
+from ..request import get_sources, get_articles, search_article
 
 # Views
 
@@ -33,7 +33,7 @@ def index():
 @main.route('/articles/<source>')
 def articles(source):
     '''
-    View articles for a specific source page function that returns the movie details page and its data
+    View articles for a specific source page function that returns the news details page and its data
     '''
     articles = get_articles(source)
 
